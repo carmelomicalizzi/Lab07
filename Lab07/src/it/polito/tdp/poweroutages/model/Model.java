@@ -16,4 +16,10 @@ public class Model {
 		return podao.getNercList();
 	}
 
+	public List<PowerOutage> getBlackoutPerNerc(String nerc) {
+		return podao.getBlackoutPerNerc(nerc);
+	}
+	
+	
+	
 }
