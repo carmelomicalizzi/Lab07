@@ -32,7 +32,8 @@ public class PowerOutagesController {
     
     @FXML
     void doWorstCaseAnalysis(ActionEvent event) {
-
+    	txtResult.setText(model.calcolaWorstCase(menuNerc.getValue(), Integer.parseInt(txtHours.getText()), Integer.parseInt(txtYears.getText())));
+    	
     }
 
     @FXML
